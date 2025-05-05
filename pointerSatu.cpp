@@ -14,12 +14,12 @@ public:
 int main()
 {
 
-    mahasiswa mhs(1); // object mhs
-    mhs.showNim();    // member Access Operator
+    mahasiswa mhs{1}; // object mhs
+    mhs.ShowNim();    // member Access Operator
 
     mahasiswa &refMhs = mhs;
     refMhs.nim = 2; // member Acces Operator
-    mhs.showNIM();
+    mhs.ShowNim();
 
     mahasiswa *pMhs = &mhs;
     return 0;
