@@ -17,4 +17,11 @@ public:
 
     mahasiswa mhs(1); // object mhs
     mhs.showNim();    // member Access Operator
+
+    mahasiswa &refMhs = mhs;
+    refMhs.nim = 2; // member Acces Operator
+    mhs.showNIM();
+
+    mahasiswa *pMhs = &mhs;
+    return 0;
 }
