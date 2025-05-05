@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-clas mahasiswa
+class mahasiswa
 {
 public:
     int nim;
@@ -12,3 +12,10 @@ public:
 };
 
 int main()
+{
+    mahasiswa *mhs = new mahasiswa(1); // pointer object mhs
+    mhs->nim = 2;
+    mhs->ShowNim();
+    delete mhs;
+    return 0;
+}
