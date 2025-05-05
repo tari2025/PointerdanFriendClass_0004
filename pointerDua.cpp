@@ -5,7 +5,7 @@ class mahasiswa
 {
 public:
     int nim;
-    void showNim()
+    void ShowNim()
     {
         cout << "No induk = " << nim << endl;
     }
