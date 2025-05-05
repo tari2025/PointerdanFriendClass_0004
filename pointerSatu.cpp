@@ -9,10 +9,9 @@ public:
     {
         cout << "No induk = " << nim << endl;
     }
-} :
+};
 
-    int
-    main()
+int main()
 {
 
     mahasiswa mhs(1); // object mhs
