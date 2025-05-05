@@ -2,10 +2,10 @@
 using namespace std;
 
 class pelajar;
-class manusia;
+class manusia
 {
 public:
-    void showNilaiPelajar(pelajar & x);
+    void showNilaiPelajar(pelajar &x);
     // void showNilaiPelajar &x);
 };
 
@@ -19,4 +19,19 @@ int main()
         nilai = 100;
     }
 };
+void manusia::showNilaiPelajar(Pelajar &x)
+{
+    cout << x.nilai;
+}
+// void manusia::showNilaiPelajar2(pelajar &x)
+//{
+//  cout << x.nilai;
+// }
+
+int main()
+{
+    manusia budi;
+    pelajar Pbudi;
+    budi.showNilaiPelajar(pbudi);
+    return 0;
 }
